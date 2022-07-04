@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.principal {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 585px;
+  height: 470px;
+  background-color: white;
+  display: flex;
+}
+
+img {
+  background-image: url(/images/image-product-desktop.jpg);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.principal .conteudo {
+  height: 100%;
+  width: 50%;
+  padding: 25px;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  background-color: papayawhip;
+}
+
+main {
+  width: 100%;
+  height: 724px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo1,
+.valor2 {
+  color: gray;
+  font-size: 14px;
+}
+
+.titulo1 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: darkgray;
+}
+
+.titulo2 {
+  font-family: 'Fraunces', serif;
+}
+
+.valor {
+  display: flex;
+}
+
+.valor-principal {
+  font-family: 'Fraunces', serif;
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+}
+
+.valor2 {
+  display: flex;
+  align-items: center;
+}
+
+.valor2 {
+  margin-left: 15px;
+}
+
+.carrinho {
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.carrinho a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+}
+
+.carrinho:hover {
+  background-color: rgb(2, 63, 33);
+}
+
+.footer {
+  font-size: 11px;
+  text-align: center;
+}
+
+.footer a {
+  color: hsl(228, 45%, 44%);
+}

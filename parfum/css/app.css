@@ -1,0 +1,42 @@
+@media (max-width:575px) {
+  main {
+    padding: 10px;
+    height: 580px;
+  }
+
+  .principal {
+    max-width: 316px;
+    flex-direction: column;
+    height: 531px;
+  }
+
+  .img {
+    background-image: url(/images/image-product-mobile.jpg);
+    width: 100%;
+    height: 40%;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+
+  .principal .conteudo {
+    width: 100%;
+    height: 65%;
+    padding: 7px 20px 20px;
+  }
+
+  .titulo2 {
+    font-size: 28px;
+    margin-top: -5px;
+    margin-bottom: -7px;
+  }
+
+  .carrinho {
+    width: 100%;
+    left: 20px;
+    bottom: 25px;
+  }
+
+  .footer {
+    display: none;
+  }
+}
